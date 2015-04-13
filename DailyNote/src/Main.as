@@ -7,6 +7,7 @@ package
 	import flash.display.StageScaleMode;
 	import flash.ui.Multitouch;
 	import flash.ui.MultitouchInputMode;
+	import xueling.com.manager.DailyManager;
 	
 	/**
 	 * ...
@@ -33,7 +34,7 @@ package
 		{
 			// make sure the app behaves well (or exits) when in background
 			//NativeApplication.nativeApplication.exit();
-			trace("dfsf");
+			DailyManager.GetToday();
 		}
 		
 	}
